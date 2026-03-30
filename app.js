@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-	res.write('My app is live on AWS');
+	res.write('Hello CI/CD pipeline');
 	res.end();
 });
 
